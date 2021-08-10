@@ -1,0 +1,65 @@
+body {
+    background:#171717;
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+}
+
+.main {
+    background: white;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+}
+.main h1 {
+    margin: 0px;
+    font-size: 20pt;
+}
+.top-part {
+    display: flex;
+    
+    overflow: hidden;
+}
+
+.top-part img {
+max-width: 60px;
+margin-left: auto;
+}
+
+.middle-part {
+    overflow: hidden;
+}
+
+.left-box {
+ float: left;
+ width: 45%;
+}
+.right-box {
+    margin-top: 20px;
+float: right;
+width: 50%;
+}
+.right-box input {
+    margin-bottom: 10px;
+    display: block;
+    width: 95%;
+}
+input {
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.bottom-part { 
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+    
